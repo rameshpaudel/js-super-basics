@@ -1,4 +1,6 @@
 //3 level of log message
+
+
 //1 -> Informative message
 //2 -> Warning message
 //3 -> Error message
@@ -71,6 +73,10 @@ console.log("Name in all small ",fullName.toLowerCase());
 // alert("Hello World")
 
 
-//Propmpt asks user for question 
+// Prompt asks user for question 
 // The result will be saved in the variable
 var question = prompt("Enter your name ");
+
+console.log(question)
+
+// alert(question)
