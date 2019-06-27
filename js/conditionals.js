@@ -26,6 +26,13 @@ var secondNum = parseInt(secondString)
 
 console.log("The type of variable after the conversion ", typeof firstNum)
 
+//isNaN is used to check weather the value is in fact a number
+// isNaN -> true ==> Not a number 
+// isNaN -> false ==> Is a number 
+
+if(isNaN(firstNum)){
+    console.error("The first number that you've entered is not valid")
+}
 
 if(firstNum > secondNum){
     console.log("The first num is greater with the value of ", firstNum)
@@ -34,3 +41,5 @@ if(firstNum > secondNum){
 }
 
 
+
+// var parsedData = parseInt("Some random text");
