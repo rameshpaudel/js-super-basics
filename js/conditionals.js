@@ -17,7 +17,16 @@ var secondNum = parseInt(secondString)
 
 if(isNaN(firstNum) || isNaN(secondNum)  ){
     //The user input a NaN value
-    console.error("Both input has to be a number ")
+    
+
+    if(isNaN(firstNum) && isNaN(secondNum)){
+        console.warn("Both inputs are not a number")
+    } else if(isNaN(firstNum)){
+        console.error("The first input is not a number")
+    } else if(isNaN(secondNum)){
+        console.error("The second input is not a number")
+    } 
+    
 } else {
     //We check the numbers here
     if(firstNum > secondNum){
@@ -27,3 +36,4 @@ if(isNaN(firstNum) || isNaN(secondNum)  ){
     }
 
 }
+
