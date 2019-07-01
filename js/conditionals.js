@@ -36,4 +36,3 @@ if(isNaN(firstNum) || isNaN(secondNum)  ){
     }
 
 }
-
