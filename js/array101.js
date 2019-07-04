@@ -23,3 +23,14 @@ newArr.push("Test");
 
 //Adding items to the begining of the array
 newArr.unshift("Ram")
+
+
+
+//Removing items from the array
+
+
+//Removing the last item from the array
+newArr.pop();
+
+//Removing the first item from the array
+newArr.shift();
