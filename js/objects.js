@@ -26,7 +26,6 @@ var firstProduct = {
     productCode: "GHAT"
 }
 
-
 console.log(firstProduct.brand)
 console.log('Large',firstProduct.size.L)
 console.log('Small',firstProduct.size.S)
@@ -41,3 +40,9 @@ console.log('Small',firstProduct.size.S)
 
 // firstProduct = firstProduct + 2
 // firstProduct += 2
+
+
+//Looping the array inside the object
+for(var i=0; i< firstProduct.color.length; i++){
+    console.log(firstProduct.color[i])
+}
