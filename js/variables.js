@@ -47,6 +47,8 @@ console.log('type', testArr.length, typeof testArr)
 // Ask 2 questions
 // SHow which number was greater
 // parseInt() -> string to number
+
+
 var question1 = prompt("Enter a number")
 var question2 = prompt("Enter anotheer number")
 
@@ -56,14 +58,21 @@ console.log(typeof question1, typeof question2)
 var firstQuestion = parseInt(question1)
 var secondQuestion = parseInt(question2)
 
-// console.log(typeof firstQuestion, typeof secondQuestion)
+if(isNaN(firstQuestion) || isNaN(secondQuestion)){
+    alert("The inputs are not a number")
+} else {
 
-console.log("The sum of the inputs is" ,firstQuestion + secondQuestion)
-
-if(firstQuestion > secondQuestion){
-    console.log("The first question has greater value which is",firstQuestion)
-} else if(firstQuestion == secondQuestion){
-    console.log("Both of the values are equal")
-} else{
-    console.log("The second question has greater value which is", secondQuestion)
+    // console.log(typeof firstQuestion, typeof secondQuestion)
+    
+    console.log("The sum of the inputs is" ,firstQuestion + secondQuestion)
+    
+    if(firstQuestion > secondQuestion){
+        console.log("The first question has greater value which is",firstQuestion)
+    } else if(firstQuestion == secondQuestion){
+        console.log("Both of the values are equal")
+    } else{
+        console.log("The second question has greater value which is", secondQuestion)
+    }
 }
+
+
