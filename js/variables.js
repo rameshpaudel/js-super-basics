@@ -20,21 +20,25 @@ console.error("THis outputs an error message")
 
 
 var testArr = [
-    "Test","Another","Random",4,5,6
+    "Test", "Another", "Random", 4, 5, 6
 ];
 
 //TO check the data type => typeof 
 
 console.log('type', testArr.length, typeof testArr)
 
-
-for(var i=0;i<testArr.length; i++){
-
-    console.log(testArr[i])
-
+//These two are same
+//i = i+ 2
+// i += 2
 
 
+for (var i = 0; i < 100; i += 2) {
+    console.log(i)
 }
 
 
-
+var i = 0;
+while (i < 100) {
+    console.log(i)
+    i += 2;
+}
