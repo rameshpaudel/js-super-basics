@@ -55,3 +55,19 @@ var indexPosition = totalNoOfItems - itemsToRemove;
 
 //To remove multiple items from the array
 numCollection.splice(indexPosition, itemsToRemove);
+
+
+
+var tempArray = [ 1,2,3,4,5,6,7,8,9];
+for(var i=0; i < tempArray.length; i++){
+
+    console.log(tempArray[i], i)
+}
+/* 
+
+push -> Add item to the last indexPosition
+unshift -> Add item to first indexPosition 
+pop -> Remove item from last indexPosition
+shift -> Remove item from first indexPosition 
+
+*/

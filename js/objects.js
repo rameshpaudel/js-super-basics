@@ -1,5 +1,3 @@
-
-
 var obj = {
     name: "John",
     lastName: "Doe",
@@ -31,9 +29,11 @@ console.log('Large',firstProduct.size.L)
 console.log('Small',firstProduct.size.S)
 
 
+console.log("The brand", firstProduct['brand'])
 
 
 
+//NOTE::
 //These are same thing
 // firstProduct = firstProduct / 2
 // firstProduct /= 2
