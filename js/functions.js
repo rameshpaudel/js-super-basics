@@ -11,11 +11,22 @@ function substract(firstValue,b){
 }
 
 
+function divide(a,b){
+    return a/b;
+}
+
+
 function takeTest(){
-    var question1 = prompt("Do you like apple ?")
-    var question2 = prompt("Do you like fruits ?")
+    var question1 = parseInt(prompt("Do you like apple ?"))
+    var question2 = parseInt(prompt("Do you like fruits ?"))
     console.log("Apple :",question1)
     console.log("Fruits :",question2)
+
+    
+    console.log("The division is ",divide(question1,question2))
+    console.log(substract(question1,question2))
+    console.log(sum(question1,question2))
+
 }
 
 function askUserForInput(){
@@ -29,3 +40,5 @@ function askUserForInput(){
     }
    
 }
+
+
