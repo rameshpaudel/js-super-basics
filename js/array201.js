@@ -19,3 +19,15 @@ for(var i = 0; i < multi.length; i++){
     }
 }
 
+
+
+var tArray = [1,2,3,4,5,6,7,8,9,10];
+
+function checkNumber(value){
+    if(value > 4 && value < 9){
+        return true;
+    }
+    return false
+}
+
+var filteredData = tArray.filter(checkNumber)
